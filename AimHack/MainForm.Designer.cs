@@ -29,26 +29,28 @@ partial class MainForm
     /// </summary>
     private void InitializeComponent()
     {
-            this.showAim = new System.Windows.Forms.Button();
+            this.showAimButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // showAim
+            // showAimButton
             // 
-            this.showAim.Location = new System.Drawing.Point(12, 12);
-            this.showAim.Name = "showAim";
-            this.showAim.Size = new System.Drawing.Size(75, 23);
-            this.showAim.TabIndex = 0;
-            this.showAim.Text = "Показать";
-            this.showAim.UseVisualStyleBackColor = true;
-            this.showAim.Click += new System.EventHandler(this.showAim_Click);
+            this.showAimButton.Location = new System.Drawing.Point(51, 12);
+            this.showAimButton.Name = "showAimButton";
+            this.showAimButton.Size = new System.Drawing.Size(75, 23);
+            this.showAimButton.TabIndex = 0;
+            this.showAimButton.Text = "Показать";
+            this.showAimButton.UseVisualStyleBackColor = true;
+            this.showAimButton.Click += new System.EventHandler(this.showAimButton_Click);
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(229, 100);
-            this.Controls.Add(this.showAim);
-            this.Name = "Form1";
+            this.ClientSize = new System.Drawing.Size(174, 44);
+            this.Controls.Add(this.showAimButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "MainForm";
             this.Text = "Form1";
             this.ResumeLayout(false);
 
@@ -56,5 +58,5 @@ partial class MainForm
 
     #endregion
 
-    private Button showAim;
+    private Button showAimButton;
 }
