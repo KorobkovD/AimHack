@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AimForm));
             this.aimPictureBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.aimPictureBox)).BeginInit();
             this.SuspendLayout();
@@ -47,14 +48,23 @@
             // 
             // AimForm
             // 
+            this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(30, 30);
+            this.ControlBox = false;
             this.Controls.Add(this.aimPictureBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MdiChildrenMinimizedAnchorBottom = false;
+            this.MinimizeBox = false;
             this.Name = "AimForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AimForm";
+            this.Text = "Aim";
+            this.TopMost = true;
+            this.TransparencyKey = System.Drawing.Color.Black;
             this.Load += new System.EventHandler(this.AimForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.aimPictureBox)).EndInit();
             this.ResumeLayout(false);
