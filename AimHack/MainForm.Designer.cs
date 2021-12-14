@@ -35,7 +35,7 @@ partial class MainForm
             // 
             // showAimButton
             // 
-            this.showAimButton.Location = new System.Drawing.Point(51, 12);
+            this.showAimButton.Location = new System.Drawing.Point(12, 12);
             this.showAimButton.Name = "showAimButton";
             this.showAimButton.Size = new System.Drawing.Size(75, 23);
             this.showAimButton.TabIndex = 0;
@@ -47,9 +47,9 @@ partial class MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(174, 44);
+            this.ClientSize = new System.Drawing.Size(100, 47);
             this.Controls.Add(this.showAimButton);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainForm";
