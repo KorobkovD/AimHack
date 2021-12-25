@@ -12,7 +12,12 @@ public partial class MainForm : Form
         var activeAimForm = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x.Name == nameof(AimForm));
         if (activeAimForm == null)
         {
-            new AimForm().Show();
+            var aimForm = new AimForm();
+            aimForm.StartPosition = FormStartPosition.Manual;
+            aimForm.Top = (Screen.PrimaryScreen.Bounds.Height - aimForm.Height) / 2;
+            aimForm.Left = (Screen.PrimaryScreen.Bounds.Width - aimForm.Width) / 2;
+            aimForm.Size = new Size(15, 15);
+            aimForm.Show();
             showAimButton.Text = "Скрыть";
         }
         else

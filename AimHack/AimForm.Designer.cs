@@ -37,12 +37,11 @@
             // 
             this.aimPictureBox.BackColor = System.Drawing.Color.Transparent;
             this.aimPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.aimPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.aimPictureBox.Image = global::AimHack.Resources._default;
             this.aimPictureBox.Location = new System.Drawing.Point(0, 0);
             this.aimPictureBox.Name = "aimPictureBox";
-            this.aimPictureBox.Size = new System.Drawing.Size(30, 30);
-            this.aimPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.aimPictureBox.Size = new System.Drawing.Size(15, 15);
+            this.aimPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.aimPictureBox.TabIndex = 0;
             this.aimPictureBox.TabStop = false;
             // 
@@ -52,7 +51,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(30, 30);
+            this.ClientSize = new System.Drawing.Size(15, 15);
             this.ControlBox = false;
             this.Controls.Add(this.aimPictureBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
